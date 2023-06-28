@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <h1>Undangan Acara Bakar Bakar</h1>
-      <p>Hai! Kami mengundang anda sekalian ke acar bakar bakar rumah awa</p>
+      <p>Hai! Kami mengundang anda sekalian/kabehan ke acara bakar bakar rumah awa</p>
 
       <div class="event-details">
         <h2>Detail Acara:</h2>
@@ -38,13 +38,16 @@ body {
   max-width: 600px;
   margin: 40px auto;
   background-color: #fff;
-  padding: 20px;
+  padding: 40px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
   color: #333;
   font-size: 28px;
   margin-bottom: 20px;
@@ -73,8 +76,6 @@ p {
 }
 
 .cta-button {
-  display: flex;
-  justify-content: center;
   margin-top: 30px;
 }
 
@@ -91,9 +92,10 @@ p {
   background-color: #3071a9;
 }
 
+/* Responsiveness for mobile */
 @media screen and (max-width: 480px) {
   .container {
-    padding: 10px;
+    padding: 20px;
   }
 
   h1 {
@@ -102,11 +104,6 @@ p {
 
   .event-details h2 {
     font-size: 20px;
-  }
-
-  .cta-button {
-    display: block;
-    text-align: center;
   }
 }
 </style>
