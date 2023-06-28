@@ -90,4 +90,23 @@ p {
 .cta-button a:hover {
   background-color: #3071a9;
 }
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .event-details h2 {
+    font-size: 20px;
+  }
+
+  .cta-button {
+    display: block;
+    text-align: center;
+  }
+}
 </style>
